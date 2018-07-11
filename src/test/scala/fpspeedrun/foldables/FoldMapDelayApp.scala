@@ -25,6 +25,6 @@ object FoldMapDelayApp {
   def main(args: Array[String]): Unit = {
 //    println(sum(Stream.range[BigInt](0, 100001)))
 //    println(sumN(5)(Stream.range(0, 11).map{x => println(x); x * 2 + 1}))
-//    println(sumN(10001)(Stream.from(0)))
+    println(sumN(10001)(Stream.from(0)))
   }
 }
